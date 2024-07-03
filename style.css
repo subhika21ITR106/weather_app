@@ -1,0 +1,77 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('https://ubuntuhandbook.org/wp-content/uploads/2021/07/M-Maggs-pixabay.jpg') no-repeat center center/cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input-map-section {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e90ff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.map {
+  height: 400px;
+  width: 100%;
+}
+
+.info-section {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.weather-info, .air-quality-info {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.weather-item, .air-quality-item {
+  margin: 10px 0;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+}

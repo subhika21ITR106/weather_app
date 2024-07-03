@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/icon1.png" type="image/x-icon" />
+    <title>Weather App with Map</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="input-map-section">
+            <div class="input-section">
+                <input type="text" id="country-input" placeholder="Enter country name">
+                <button id="submit-btn">Get Weather</button>
+            </div>
+            <div id="map" class="map"></div>
+        </div>
+        <div class="info-section">
+            <div class="weather-info" id="weather-info">
+                <!-- Weather data will be displayed here -->
+            </div>
+            <div class="air-quality-info" id="air-quality-info">
+                <!-- Air quality data will be displayed here -->
+            </div>
+        </div>
+    </div>
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
